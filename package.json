@@ -1,0 +1,26 @@
+{
+  "name": "appdex-contest",
+  "description": "find out your appdex score relative to everyone else",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "http://github.com/jhubert/appdex-contest",
+  "repository": "git://github.com/jhubert/appdex-contest.git",
+  "author": "Jeremy Baker",
+  "main": "./start.js",
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "express": "^4.0.0",
+    "firebase": "^1.1.1",
+    "lodash": "^2.4.1",
+    "sha1": "^1.1.0",
+    "superagent": "^0.18.2"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp",
+    "start": "node ./start.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
